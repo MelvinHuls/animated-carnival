@@ -21,7 +21,7 @@ public class App
     	a.add(b);
         System.out.println( "Welcome to out circus with the magnificent animals, we got:" );
         
-        for(int i = 0; i < a.size(); --i){
+        for(int i = 0; i < a.size(); ++i){
         	System.out.println( a.get(i).name );
         }
         
